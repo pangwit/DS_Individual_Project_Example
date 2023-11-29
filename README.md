@@ -43,9 +43,13 @@ Tools:
 
 Inference methods used with Scikit:
 - linear regression model
+Including what is a linear regression, why choose this method, any assumption/shortage of this method, what's the module/functions choosed  
 - Features: OneHotEncoder/ColumnTransformer, StandardScaler, PolynomialFeatures and SimpleImputer for missing values
+More explanation
 - Pipeline to tie it all together
+More explanation
 - GridSearchCV for hyperparameter tuning
+More explanation
 
 ## Results
 The app is live at https://ds-example.herokuapp.com/
