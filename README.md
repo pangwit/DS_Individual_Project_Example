@@ -20,7 +20,7 @@ The objective is to predict hospital charges.
 The dataset can found online at [git](https://github.com/stedy/Machine-Learning-with-R-datasets)[4]. Many example solutions and analysis can be found at [kaggle](https://www.kaggle.com/mirichoi0218/insurance) [5]
 
 Data preview: 
-![data screenshot](./insurance_data.png)
+![data screenshot](./graph/insurance_data.png)
 
 
 Note that data has categorical features in 3 cols: sex, smoker, and region.
@@ -29,7 +29,7 @@ When using a linear regression model, the learning accuracy shoots up from 12% t
 
 We then create a pipeline for automating the process for new data. I also experimented with different imputer strategies for missing data and added second-degree polynomial features for both the numeric and categorical data. The shown values are obtained by performing a grid search over these arguments. 
 Pipeline preview: 
-![pipeline screenshot](./pipeline.png)
+![pipeline screenshot](./graph/pipeline.png)
 
 I finally saved the model via joblib to be used for predictions by the web app. 
 
@@ -51,10 +51,10 @@ Inference methods used with Scikit:
 The app is live at https://ds-example.herokuapp.com/
 It allows for online and batch processing as designed by the pycaret post:
 - Online: User inputs each feature manually for predicting a single insurance cost
-![online screenshot](./online.png)
+![online screenshot](./graph/online.png)
 - Batch: It allows the user to upload a CSV file with the 6 features for predicting many instances at once. 
-  - An [X_test.csv](./X_test.csv) is provided as a batch processing sample. Corresponding insurance prices are available at [y_test.csv](./y_test.csv)
-![batch screenshot](./batch.png)
+  - An [X_test.csv](./data/X_test.csv) is provided as a batch processing sample. Corresponding insurance prices are available at [y_test.csv](./data/y_test.csv)
+![batch screenshot](./graph/batch.png)
 
 I am not adding any visualizations to this example, though st supports it. Couple good examples are [here](https://share.streamlit.io/tylerjrichards/book_reco/books.py) and [here](https://share.streamlit.io/streamlit/demo-uber-nyc-pickups/)
 
