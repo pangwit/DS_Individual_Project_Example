@@ -12,7 +12,7 @@ I wanted to ease the web app development and [Streamlit](https://www.streamlit.i
 
 ## Selection of Data
 
-The model processing and training are conducted using a Jupyter Notebook and is available [here](https://github.com/pangwit/BreadcrumbsDS_Individual_Project_Example/codes/Insurance-Model_Training_Notebook.ipynb).
+The model processing and training are conducted using a Jupyter Notebook and is available [here](https://github.com/pangwit/DS_Individual_Project_Example/codes/Insurance-Model_Training_Notebook.ipynb).
 
 
 The data has over 1,300 samples with 6 features: age, sex, BMI, no of children, smoker, region.  
