@@ -12,7 +12,7 @@ I wanted to ease the web app development and [Streamlit](https://www.streamlit.i
 
 ## Selection of Data
 
-The model processing and training are conducted using a Jupyter Notebook and is available [here](https://github.com/pangwit/codes/Insurance%20-%20Model%20Training%20Notebook.ipynb).
+The model processing and training are conducted using a Jupyter Notebook and is available [here](https://github.com/pangwit/codes/Insurance-Model_Training_Notebook.ipynb).
 
 The data has over 1,300 samples with 6 features: age, sex, BMI, no of children, smoker, region.  
 The objective is to predict hospital charges.
